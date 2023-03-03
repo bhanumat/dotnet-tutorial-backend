@@ -80,7 +80,7 @@ jobs:
     needs: [unitest,analyze]
     environment:
       name: dev
-      url: https://github.com/bhanumat/bhanumat-pipline/actions/workflows/dev-tutorial-backend-deploy.yml
+      url: https://github.com/bhanumat/bhanumat-pipline/actions/workflows/dev-tutorial-be-deploy.yml
 
     steps:
     - name: Repository Dispatch
